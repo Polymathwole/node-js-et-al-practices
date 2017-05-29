@@ -22,7 +22,7 @@ class FileWatcher extends ev
                         for (let f of files)
                             this.emit('process', f);
                     }
-            })
+            });
         });
     }
 }
