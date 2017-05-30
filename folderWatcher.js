@@ -1,6 +1,5 @@
 const fs=require('fs');
 const ev=require('events');
-const pa=require('path');
 
 class FileWatcher extends ev
 {
