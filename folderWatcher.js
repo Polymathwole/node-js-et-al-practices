@@ -26,7 +26,7 @@ class FileWatcher extends ev
     }
 }
 
-const fw=new FileWatcher('C:/Users/Oluwaremi.REMI/Desktop/Bootcamp','C:/Users/Oluwaremi.REMI/Documents/Processed');
+const fw=new FileWatcher('watched','processed');
 
 fw.on('process',(file)=>{
     let watchFile = fw.watchDir + '/' + file;
